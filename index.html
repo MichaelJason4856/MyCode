@@ -10,17 +10,15 @@
     <title>Question of the day</title>
 </head>
 <body>
-    <div class="container-md">
-    <h1>Who's going to do the next question of the day?</h1>
-    <button type="button" class="btn btn-primary shadow-sm p-3 mb-5 bg-body-tertiary rounded" onclick="whosDoingNextQuestion()">Click me</button>
-    <p aria-hidden="true" >
-        <span class="placeholder col-6"></span>
-      </p>
-      
-      <a class="btn btn-primary disabled placeholder col-4" id="answer" aria-disabled="true"></a>
-      
+    <div id="box">
+        <h1>Who's going to do the next question of the day?</h1>
+        <button type="button" class="btn btn-primary shadow-lg p-3 mb-5 bg-body-tertiary rounded" onclick="whosDoingNextQuestion()">Click me</button>
+    </div>     
+        <p aria-hidden="true" >
+        <span class="placeholder col-4"></span>
+        </p>      
+        <a class="btn btn-primary disabled placeholder col-4" id="answer" aria-disabled="true"></a>      
     
-
     <script src="script.js"></script>
 </body>
 </html>
